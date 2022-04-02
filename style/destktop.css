@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #94C3CD;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul.home-list{
+    min-height: 15vh;
+    justify-content: space-around;
+
+
+}
+
+.apple-logo i{
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.apple-logo i:hover{
+    color: #AFE3E6;
+
+
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 35px;
+    border-radius: 120px;
+    margin: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+    
+
+}
+
+ul li a:hover{
+    color: #A1C7C9;
+
+    background-color: #fff;
+
+
+
+}
+
+
+.list-icon i{
+    margin: 5px;
+    padding: 20px 10px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.btn-menu{
+    display: none;
+}
+
+.list-icon span{
+    color: white;
+
+}
+
+/* MAIN CONTAINER CONFIG */
+
+.main-container{
+    width: 80%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px auto;
+
+}
+
+.main-left{
+    width: 50%;
+    min-height: 350px;
+
+}
+
+.main-left .text-left{
+    min-height: 270px;
+
+}
+
+.main-left h1{
+font-size: 3.9rem;
+max-width: 700px;
+color: white;
+font-family: 'IBM Plex Sans Arabic', sans-serif;
+font-weight: 1200;
+
+}
+
+.main-left #title-2{
+    font-size: 4.2rem;
+    font-weight: 100;
+    
+
+}
+
+.main-left button{
+    min-width: 180px;
+    height: 45px;
+    top: 0px;
+    padding: 0px 30px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    background: none;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.main-left button:hover{
+    background: white;
+    color: #94C3CD;
+
+}
+
+
+.main-right{
+    width: 50%;    
+    
+}
+
+.main-picture{
+    width: 100%;
+    min-height: 300px;
+    justify-content: center;
+    position: relative
+
+}
+
+
+.main-picture img{
+    max-width: 500px;
+    display: flex;
+    position:absolute;
+    bottom: -100px;
+    left: 0px;
+    
+
+}
+
+.pictures{
+ 
+    
+}
+
+.pictures ul {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+
+}
+
+
+.pictures img{
+    max-width: 150px;
+    padding: 5px 20px;
+
+    margin: 0px auto;
+
+}
+
