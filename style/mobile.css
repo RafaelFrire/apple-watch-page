@@ -24,6 +24,11 @@
 
     }
 
+    .apple-logo i{
+        font-size: 40px;
+
+    }
+
     .active{
         position: absolute; 
         display: block;
@@ -110,6 +115,28 @@
 }
 
 
+
+@keyframes img-effect {
+    0%{
+        transform: translateY(0px);
+
+    }
+
+    50%{
+        transform: translateY(-30px);
+
+    }
+
+    100%{
+        transform: translateY(0px);
+
+    }
+}
+
+
+
+}
+
 /* tablet configs */
 @media screen and (min-width: 600px) and (max-width: 920px) {
     
@@ -120,5 +147,4 @@
     }
 
 
-}
 }

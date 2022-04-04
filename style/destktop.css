@@ -157,14 +157,10 @@ font-weight: 1200;
     position:absolute;
     bottom: -100px;
     left: 0px;
-    
-
-}
-
-.pictures{
- 
+    animation: img-effect ease-in-out 3.1s infinite;
     
 }
+
 
 .pictures ul {
     display: flex;
@@ -174,11 +170,21 @@ font-weight: 1200;
 }
 
 
-.pictures img{
-    max-width: 150px;
-    padding: 5px 20px;
 
-    margin: 0px auto;
+@keyframes img-effect {
+    0%{
+        transform: translateY(0px);
 
+    }
+
+    50%{
+        transform: translateY(-40px);
+
+    }
+
+    100%{
+        transform: translateY(0px);
+
+    }
 }
 
